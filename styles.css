@@ -21,33 +21,61 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    color: #f9Faf8;
+    padding: 16px 420px 160px;
+
 
 }
 
 .nav {
     display: flex;
     margin-bottom: 100px;
-    border: 2px solid red;
+    gap: 24px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9Faf8;
 }
 
 .focus {
     display: flex;
-    border: 2px solid red;
+    justify-content: space-between;
+    gap: 36px;
+    flex-wrap: wrap;
 }
 
 .hero-text {
-    flex: 1 300px;
-    margin-left: auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    gap: 12px;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 28px;
+    color: #f9Faf8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .hero-image {
-    flex: 1 300px;
-    border: 2px solid red;
+    background-color: #767a86;
+    flex: 1;
 }
 
+.text {
+    font-size: 18px;
+    color: #E5e7eb;
+    padding-right: 50px;
+}
+
+
 .information {
-    border: 2px solid red;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,16 +100,21 @@ ul {
     display: flex;
     margin-left: auto;
     list-style: none;
-    gap: 8px;
+    gap: 24px;
 }
 
 a {
     text-decoration: none;
-    color: #f9Faf8;
+    color: #E5e7eb
 }
 
 img {
-    border: 2px solid red;
     width: 300px;
     height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9Faf8;
+    margin-bottom: -10px;
 }
