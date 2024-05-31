@@ -78,7 +78,7 @@ h1 {
 /* ... */
 
 
-.text {
+.secondary-text {
     font-size: 18px;
     color: #E5e7eb;
     padding-right: 50px;
@@ -91,6 +91,9 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px auto 100px;
+    gap: 45px;
+
 }
 
 .info-title {
@@ -101,11 +104,14 @@ h1 {
 
 .item-list {
     display: flex;
+    justify-content: space-between;
+    gap: 46px;
 }
 
 .items {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .item-images {
@@ -114,6 +120,12 @@ h1 {
     height: 170px;
     width: 170px;
 }
+
+.subtext {
+    text-align: center;
+}
+
+
 /* ... */
 
 
