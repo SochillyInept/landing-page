@@ -17,13 +17,13 @@ body {
     justify-content: space-between;
 }
 
+/*  ||  Header */
+
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     padding: 16px 420px 160px;
-
-
 }
 
 .nav {
@@ -34,8 +34,9 @@ body {
 
 #logo {
     font-size: 24px;
-    font-weight: 900;
     color: #f9Faf8;
+    font-weight: 900;
+    font-family: Roboto;
 }
 
 .focus {
@@ -45,11 +46,23 @@ body {
     flex-wrap: wrap;
 }
 
+h1 {
+    font-size: 48px;
+    color: #f9Faf8;
+    margin-bottom: -10px;
+    font-weight: 900;
+}
+
 .hero-text {
     display: flex;
     flex-flow: column wrap;
     flex: 1;
     gap: 12px;
+}
+
+.hero-image {
+    background-color: #767a86;
+    flex: 1;
 }
 
 .signup {
@@ -62,10 +75,8 @@ body {
     font-weight: 900;
 }
 
-.hero-image {
-    background-color: #767a86;
-    flex: 1;
-}
+/* ... */
+
 
 .text {
     font-size: 18px;
@@ -74,6 +85,8 @@ body {
 }
 
 
+/*  || Information  */
+
 .information {
 
     display: flex;
@@ -81,9 +94,18 @@ body {
     align-items: center;
 }
 
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .item-list {
     display: flex;
 }
+
+/* ... */
+
 
 .quotation {
     background-color: #E5e7eb;
@@ -113,8 +135,3 @@ img {
     height: auto;
 }
 
-h1 {
-    font-size: 48px;
-    color: #f9Faf8;
-    margin-bottom: -10px;
-}
