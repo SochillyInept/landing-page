@@ -22,6 +22,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #1f2937;
     padding: 16px 420px 160px;
 }
@@ -130,7 +131,7 @@ h1 {
 /* ... */
 
 
-/*  ||Quotation  */
+/*  || Quotation  */
 
 .quotation {
     display: flex;
@@ -138,7 +139,7 @@ h1 {
     background-color: #E5e7eb;
     justify-content: center;
     align-items: center;
-    padding: 125px 400px;
+    padding: 125px 500px;
 }
 
 .quote {
@@ -159,11 +160,15 @@ h1 {
 
 .signup-banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 80px auto;
-    padding: 50px 115px;
-    width: 1250px;
+    margin: 80px 380px;
+    padding: 50px 0px;
+}
+
+.signup-title {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #highlight {
@@ -174,6 +179,7 @@ h1 {
 .text {
     font-weight: 400;
 }
+
 
 .footer {
     display: flex;
