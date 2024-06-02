@@ -75,14 +75,13 @@ h1 {
     font-weight: 900;
 }
 
-/* ... */
-
-
 .secondary-text {
     font-size: 18px;
     color: #E5e7eb;
     padding-right: 50px;
 }
+
+/* ... */
 
 
 /*  || Information  */
@@ -128,7 +127,6 @@ h1 {
     color: #1f2937;
 }
 
-
 /* ... */
 
 
@@ -159,6 +157,13 @@ h1 {
 
 /* ... */
 
+.signup-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 300px;
+    padding: 40px 10px;
+}
 
 .footer {
     display: flex;
