@@ -132,9 +132,32 @@ h1 {
 /* ... */
 
 
+/*  ||Quotation  */
+
 .quotation {
+    display: flex;
+    flex-direction: column;
     background-color: #E5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
 }
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 100px;
+}
+
+/* ... */
+
 
 .footer {
     display: flex;
