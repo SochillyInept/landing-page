@@ -159,10 +159,20 @@ h1 {
 
 .signup-banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 80px 300px;
-    padding: 40px 10px;
+    margin: 80px auto;
+    padding: 50px 115px;
+    width: 1250px;
+}
+
+#highlight {
+    border: 3px solid #f9Faf8;
+    padding: 5px 25px;
+}
+
+.text {
+    font-weight: 400;
 }
 
 .footer {
